@@ -1,0 +1,576 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap"
+  rel="stylesheet"
+/>
+<!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-FD8QZNCLK0"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-FD8QZNCLK0');
+</script>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --bg: #020b16;
+    --surface: #071422;
+    --surface2: #0a1c2e;
+    --teal: #2dd4bf;
+    --teal-dim: rgba(45, 212, 191, 0.07);
+    --teal-border: rgba(45, 212, 191, 0.15);
+    --white: #e8f0f8;
+    --white2: #7a9ab5;
+    --white3: #3a5a72;
+    --line: rgba(255, 255, 255, 0.055);
+    --line2: rgba(255, 255, 255, 0.09);
+    --serif: 'DM Serif Display', serif;
+    --sans: 'Inter', sans-serif;
+  }
+  body {
+    background: var(--bg);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes scanline {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(500px);
+    }
+  }
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.6;
+    }
+  }
+
+  .page {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 48px 100px;
+    min-height: 100vh;
+  }
+
+  /* ── EYEBROW ── */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 32px;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.1s ease both;
+  }
+  .eyebrow-line {
+    width: 20px;
+    height: 1px;
+    background: var(--teal);
+    opacity: 0.6;
+  }
+
+  /* ── HEADLINE ── */
+  .headline {
+    font-family: var(--serif);
+    font-size: clamp(36px, 5vw, 62px);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    color: var(--white);
+    max-width: 700px;
+    margin-bottom: 24px;
+    opacity: 0;
+    animation: fadeUp 0.7s 0.2s ease both;
+  }
+  .headline em {
+    color: var(--teal);
+    font-style: italic;
+  }
+
+  /* ── BODY ── */
+  .lead {
+    font-size: 15px;
+    color: var(--white2);
+    font-weight: 300;
+    line-height: 1.78;
+    max-width: 580px;
+    margin-bottom: 56px;
+    opacity: 0;
+    animation: fadeUp 0.65s 0.35s ease both;
+  }
+  .lead strong {
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  /* ── DIVIDER ── */
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: var(--line2);
+    margin-bottom: 56px;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 0.5s 0.5s ease both;
+  }
+  .divider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background: var(--teal);
+    opacity: 0.4;
+    animation: scanline 3.5s 1s ease both;
+  }
+
+  /* ── BLUEPRINT STAGE ── */
+  .blueprint {
+    margin-bottom: 64px;
+    opacity: 0;
+    animation: fadeIn 0.8s 0.6s ease both;
+  }
+
+  /* grid container */
+  .grid-bg {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background: var(--surface);
+    border: 1px solid var(--line2);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  /* dot grid */
+  .dot-grid {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(
+      circle,
+      rgba(45, 212, 191, 0.12) 1px,
+      transparent 1px
+    );
+    background-size: 28px 28px;
+  }
+
+  /* teal glow orb */
+  .glow-orb {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(
+      ellipse,
+      rgba(45, 212, 191, 0.06) 0%,
+      transparent 70%
+    );
+    pointer-events: none;
+  }
+
+  /* wireframe cards */
+  .wf-card {
+    position: absolute;
+    background: rgba(7, 20, 34, 0.8);
+    border: 1px solid var(--line2);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    transition:
+      border-color 0.3s,
+      transform 0.3s;
+  }
+  .wf-card:hover {
+    border-color: var(--teal-border);
+    transform: translateY(-3px);
+  }
+
+  .wf-c1 {
+    width: 220px;
+    height: 130px;
+    top: 24px;
+    left: 32px;
+  }
+  .wf-c2 {
+    width: 180px;
+    height: 110px;
+    top: 24px;
+    left: 270px;
+    opacity: 0.7;
+  }
+  .wf-c3 {
+    width: 200px;
+    height: 125px;
+    top: 30px;
+    right: 32px;
+    opacity: 0.5;
+  }
+  .wf-c4 {
+    width: 240px;
+    height: 95px;
+    bottom: 32px;
+    left: 32px;
+    opacity: 0.6;
+  }
+  .wf-c5 {
+    width: 195px;
+    height: 90px;
+    bottom: 32px;
+    right: 32px;
+    opacity: 0.45;
+  }
+
+  .wf-header {
+    height: 10px;
+    background: var(--line2);
+    border-radius: 4px;
+    margin: 16px 16px 10px;
+  }
+  .wf-line {
+    height: 6px;
+    border-radius: 3px;
+    background: var(--line);
+    margin: 6px 16px;
+  }
+  .wf-line.short {
+    width: 55%;
+  }
+  .wf-line.med {
+    width: 72%;
+  }
+  .wf-line.full {
+    margin: 6px 16px;
+  }
+  .wf-tag {
+    display: inline-flex;
+    align-items: center;
+    height: 16px;
+    border-radius: 20px;
+    background: var(--teal-dim);
+    border: 1px solid var(--teal-border);
+    margin: 8px 16px 0;
+    width: 60px;
+  }
+  .wf-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--teal);
+    opacity: 0.4;
+    margin: 0 5px;
+    animation: blink 2s ease-in-out infinite;
+  }
+  .wf-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: var(--line);
+    float: left;
+    margin: 12px 10px 10px 16px;
+  }
+  .wf-thumb-lines {
+    overflow: hidden;
+  }
+  .wf-badge {
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    font-family: var(--sans);
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--bg);
+    border: 1px solid var(--teal-border);
+    color: var(--teal);
+    padding: 2px 8px;
+    border-radius: 20px;
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  /* progress bars inside cards */
+  .wf-prog-track {
+    height: 4px;
+    background: var(--line);
+    border-radius: 2px;
+    margin: 8px 16px 0;
+  }
+  .wf-prog-fill {
+    height: 100%;
+    border-radius: 2px;
+    background: rgba(45, 212, 191, 0.3);
+  }
+
+  /* connector lines */
+  .connectors {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  /* center status */
+  .status-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+  }
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--teal);
+    margin: 0 auto 10px;
+    animation: blink 1.8s ease-in-out infinite;
+  }
+  .status-label {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--teal);
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .status-sub {
+    font-family: var(--sans);
+    font-size: 11px;
+    color: var(--white3);
+    font-weight: 300;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── DOCUMENTING ── */
+  .documenting {
+    margin-bottom: 60px;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.75s ease both;
+  }
+  .doc-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--white3);
+    margin-bottom: 16px;
+  }
+  .doc-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .doc-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--white2);
+    background: var(--surface2);
+    border: 1px solid var(--line2);
+    border-radius: 6px;
+    padding: 7px 14px;
+    transition:
+      border-color 0.25s,
+      color 0.25s;
+    letter-spacing: 0.01em;
+  }
+  .doc-pill:hover {
+    border-color: var(--teal-border);
+    color: var(--white);
+  }
+  .doc-pill-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    opacity: 0.5;
+    flex-shrink: 0;
+  }
+
+  /* ── CTA ── */
+  .cta-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.9s ease both;
+  }
+  .cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--teal);
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    transition: gap 0.25s;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .cta-link:hover {
+    gap: 13px;
+  }
+  .cta-link:hover .cta-arrow {
+    transform: translateX(-3px);
+  }
+  .cta-arrow {
+    transition: transform 0.25s;
+    font-size: 14px;
+  }
+  .cta-divider {
+    width: 1px;
+    height: 16px;
+    background: var(--line2);
+  }
+  .cta-meta {
+    font-size: 12px;
+    color: var(--white3);
+    font-weight: 300;
+    letter-spacing: 0.02em;
+  }
+
+  /* SVG connectors */
+  svg.conn {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 600px) {
+    .page {
+      padding: 60px 24px 80px;
+    }
+    .grid-bg {
+      height: 260px;
+    }
+    .wf-c2,
+    .wf-c3,
+    .wf-c5 {
+      display: none;
+    }
+    .wf-c1 {
+      width: 160px;
+      height: 100px;
+      left: 16px;
+      top: 16px;
+    }
+    .wf-c4 {
+      width: 165px;
+      bottom: 16px;
+      left: 16px;
+    }
+  }
+</style>
+
+<div class="page">
+  <div class="eyebrow">
+    <span class="eyebrow-line"></span>
+    Case Studies Archive
+  </div>
+
+  <h1 class="headline">
+    More work. More outcomes.<br /><em>Currently being documented.</em>
+  </h1>
+
+  <p class="lead">
+    <strong>The projects are complete. The results are real.</strong
+    ><br /><br />
+    I'm currently documenting additional redesigns, UX audits, CRO engagements,
+    and product design work capturing the research, decisions, constraints, and
+    measurable outcomes behind each project.<br /><br />
+    Rather than publishing rushed case studies, I focus on creating detailed
+    breakdowns that show how design decisions translated into business impact.
+    New case studies are added as they're completed.
+  </p>
+
+  <div class="divider"></div>
+
+  
+  <!-- CURRENTLY DOCUMENTING -->
+  <div class="documenting">
+    <div class="doc-label">Currently documenting</div>
+    <div class="doc-pills">
+      <div class="doc-pill"><span class="doc-pill-dot"></span>UX Audits</div>
+      <div class="doc-pill">
+        <span class="doc-pill-dot"></span>E-commerce Redesigns
+      </div>
+      <div class="doc-pill">
+        <span class="doc-pill-dot"></span>Conversion Optimisation
+      </div>
+      <div class="doc-pill">
+        <span class="doc-pill-dot"></span>Product Design
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-row">
+    <a href="/portfolio-preview/" class="cta-link">
+      <span class="cta-arrow">←</span>
+      Back to Featured Case Studies
+    </a>
+    <div class="cta-divider"></div>
+    <span class="cta-meta">Updated as each study is completed</span>
+  </div>
+</div>

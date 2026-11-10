@@ -1,0 +1,274 @@
+[
+  {
+    "path": ".nojekyll",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "assets/Sana-Ishaq-UI-UX-Designer-Resume.pdf",
+    "sha256": "55de81652936c6b880634c829c36fa1db9149592f879609f109420e18f0ed18b"
+  },
+  {
+    "path": "assets/Sana_Ishaq_Resume.pdf",
+    "sha256": "410f32d35eb785d48859d49a5965372659638d1a4f2c6bed8af97af525aba374"
+  },
+  {
+    "path": "assets/barcode_studio_ux_decision.pdf",
+    "sha256": "7f1fb2df4c308a4c4d7b19dfc6ef943512bfe0a36ba2b00f6af8d8bce03ee5f6"
+  },
+  {
+    "path": "assets/css/style.css",
+    "sha256": "99e67f78c8f54ebc819918568619a1241b33d4207190a72c356b05d470cb682d"
+  },
+  {
+    "path": "assets/img/AWR.png",
+    "sha256": "cfded0b3175f06a20893ffb52fd7ee10b684f079ec68c0d6573e673f7676cd80"
+  },
+  {
+    "path": "assets/img/About Dark - Barcode.png",
+    "sha256": "d9546ef694972a92d450421efcdc70129957d182deb9356dc235da49ff61a0ed"
+  },
+  {
+    "path": "assets/img/About Light - Barcode.png",
+    "sha256": "daa8a8071e73e0768563a70b2557e0e462fb8bbf258de25e9b8e3382e8a52c9e"
+  },
+  {
+    "path": "assets/img/Accident report - subscribe me.png",
+    "sha256": "3fc0ccd4f98cb0fa5f413f149a64aea43ecf0da5c4768196ca86999e61f95f1d"
+  },
+  {
+    "path": "assets/img/Active Booking - subscribe me.png",
+    "sha256": "f5ee5e41c5010b3e59dd9762026b0d2ac5238afc4da83b7f57d089aeb3096edd"
+  },
+  {
+    "path": "assets/img/Booking Documents - subscribe me.png",
+    "sha256": "5a011f00aeb69c0dd8012f9d7bfa3fa818219b6cb9c0021f658afcd5bc8a021f"
+  },
+  {
+    "path": "assets/img/Browse Car - subscribe me.png",
+    "sha256": "8a5ac3564c7d9f5a7e56ee656d57ee2f6d5200bb052c3c76d7d454b618c8f91e"
+  },
+  {
+    "path": "assets/img/Create Dark - Barcode.png",
+    "sha256": "f950edfc047716d69f8d4c15ec7be59b4edafc153246c673633ed20763c1177c"
+  },
+  {
+    "path": "assets/img/Create Light - Barcode.png",
+    "sha256": "af67a533d75f31b644a5b3eca0eb8ded182f36d3b9b2ca0f48217595a70a99ee"
+  },
+  {
+    "path": "assets/img/Dashboard - subscribe me.png",
+    "sha256": "1dfffd01aae12345fce6f57f4c66f2fce24b3ca684034e7fe251e3651b2a4719"
+  },
+  {
+    "path": "assets/img/Export Dark - Barcde.png",
+    "sha256": "879bfc2c030bfbbec81e9c1b54dbda5f0ec606fd90baa0f6efea40042050ad69"
+  },
+  {
+    "path": "assets/img/Export Light - Barcode.png",
+    "sha256": "f5d9a4907ac4feff90aaca9be07f5fbc2028e14020b3406227a31f64ed7e28d5"
+  },
+  {
+    "path": "assets/img/Extras Package - subscribe me.png",
+    "sha256": "286e9ceb81ebc124eaceb316dd2c04ea282625ed40d9318e88feb8863520ee20"
+  },
+  {
+    "path": "assets/img/Haier homepage.png",
+    "sha256": "ff8a8d8485ccf1c44d77b8073f57de64c9c328373c4e260224f173b078d69240"
+  },
+  {
+    "path": "assets/img/Notification Creation - UTWorX.png",
+    "sha256": "b2c4570a0af277cc27be69dfe90fb63f49cd42f0d1b82dc021094a0c3d417876"
+  },
+  {
+    "path": "assets/img/Overview - Barcode.png",
+    "sha256": "1eb4b85c03b35e54b7082509d34050612ad259bfac2571c7be8bb0543d96b9cc"
+  },
+  {
+    "path": "assets/img/Overview - UTWorX.png",
+    "sha256": "fd33b6ebd35f2c59a17e5f0b123cf4007f67e41af2b8c1d31e6433b16f7e19d2"
+  },
+  {
+    "path": "assets/img/PMS Success Message - UTWorX.png",
+    "sha256": "36dee18f2953a17cba2510498cf839a8d5ddfefc2251e3eee7b97c32e5bf4158"
+  },
+  {
+    "path": "assets/img/Package confirmation - subscribe me.png",
+    "sha256": "2feff04a1c318949241d3cd8e0dbab6daa63218b6691ca14c33196f02f904af0"
+  },
+  {
+    "path": "assets/img/Prelimanary Report - UTWorX.png",
+    "sha256": "75031243c92a077895259af0fb06a39fbeb2fa3a06d115375ecdf349abd5fe5e"
+  },
+  {
+    "path": "assets/img/Preventive Maintenance Scheduler - UTWorX.png",
+    "sha256": "b342c98813f23e81e3133b15bce1b34d0c02a4282259caf9611eec28f882441a"
+  },
+  {
+    "path": "assets/img/Preventive Maintenance Scheduler Overview - UTWorX.png",
+    "sha256": "6f66d69eb9c4f7f074736c53f8710a0e8f2ee4f5a72f29a4e79b509d36463651"
+  },
+  {
+    "path": "assets/img/Profile - subscribe me.png",
+    "sha256": "20b7ddb67534b183fbd49991ec9b9cc71eb90cfff4bb3a3c8a6b7cdd2e5f002e"
+  },
+  {
+    "path": "assets/img/Report Breakdown - subscribe me.png",
+    "sha256": "27a6850f04c32c4c7091613fc51542699f172dfa7b4cdf5030fb5b2ce94c7608"
+  },
+  {
+    "path": "assets/img/Report Generation - UTWorX.png",
+    "sha256": "bb630331ed8bd0a68cff7e58d8642c7e0c812a5efac572d956bc40ebfa8cacbd"
+  },
+  {
+    "path": "assets/img/Request Service - subscribe me.png",
+    "sha256": "9e83be1c49944d060e86009c9fd1413beeb25c348ce0ad63a21fe7fd89128127"
+  },
+  {
+    "path": "assets/img/Review & Paye - subscribe me.png",
+    "sha256": "907c3bd95a3e5b34a962a561626f16edd634584fe3af3c9cfca0f620c8bfad43"
+  },
+  {
+    "path": "assets/img/Select Return.png",
+    "sha256": "99264b501e5bc64edc4dfa8bc892628e135d8c8f5663dbe5bbd0ac811f7a2506"
+  },
+  {
+    "path": "assets/img/Service Report - UTWorX.png",
+    "sha256": "643892ea253896187fef97e5ec9b69aa44fca606daf58540026f848436e5f69d"
+  },
+  {
+    "path": "assets/img/Successful Booking - Subscribe me.png",
+    "sha256": "ae61b96a00decce426cb2959cd622a583d17d9b465760564cca94fc11f05eea4"
+  },
+  {
+    "path": "assets/img/UTWorX.png",
+    "sha256": "42cc0d7e1103111d875e86b91a3e62261054fdccd61baa8c77f09fbacfa9c51e"
+  },
+  {
+    "path": "assets/img/Userflow - Barcode.png",
+    "sha256": "d268f7cec110e4c057f507d33a75372a80f9b61411b185222b89a5d9e08fa002"
+  },
+  {
+    "path": "assets/img/Vehicle Details - subscribe me.png",
+    "sha256": "ec6b743c38c0568ba99fffd6697395bade50067909e25b52f66abb9764374865"
+  },
+  {
+    "path": "assets/img/Vehicle Swap - subscribe me.png",
+    "sha256": "a0422ca5556421c00077fed7b9a8866c55776ae3abb9937827ef4b51639c0f9a"
+  },
+  {
+    "path": "assets/img/Work Scheduling - UTWorX.png",
+    "sha256": "acf994178c08a11eff927a7ef59ed973c1046251c80e152e57be90bfba0dc5f3"
+  },
+  {
+    "path": "assets/img/about.png",
+    "sha256": "cf4c6ff1bf54d96320c0ea372043e6bfb9435e9398139a0a7a243c300c2b69ba"
+  },
+  {
+    "path": "assets/img/assest overview.png",
+    "sha256": "a48f13d7c9706d0d0620e016d575366e9cf5603a3e69b2161599cbf9c18b8735"
+  },
+  {
+    "path": "assets/img/button - subscribe me.png",
+    "sha256": "857991dff69675fdc2636ca7c19aa5019ed81c0602f18717cf4126c841cba9ad"
+  },
+  {
+    "path": "assets/img/color palette - barcode.png",
+    "sha256": "adf3fd072b0c693d5483da9ef803d428934f329d494625c3fd17160883e6da74"
+  },
+  {
+    "path": "assets/img/component librabry - subscribe me.png",
+    "sha256": "0a9b9e8a994c007c71c8981fc65240549bdd9e17f0f8c1bba2b90353ef3be69a"
+  },
+  {
+    "path": "assets/img/dashboard error - subscribe me.png",
+    "sha256": "e761945fb1295e9ffd7ad3e6865464f1345e5e448a477dd42c42293a58467c01"
+  },
+  {
+    "path": "assets/img/documentation - Barcode.png",
+    "sha256": "b3c552055e55bd117b2723d5ef4bf10e24e4e741de21c92a355c04f3ec9299eb"
+  },
+  {
+    "path": "assets/img/haier-checkout.png",
+    "sha256": "81350e2108d8aefe804be3554f457d766b0bd9c0b839be53778a73802db88e66"
+  },
+  {
+    "path": "assets/img/haier-product detail.png",
+    "sha256": "3f392fa11bf2c8bcc856bcd140800618d754cbc5a0e73ae8b9c3afaa4c672f0f"
+  },
+  {
+    "path": "assets/img/haier-product listing default.png",
+    "sha256": "8476cee5195361f6b1997fb0581ccdfb604cb7076029b31289f896cc12b7e5d6"
+  },
+  {
+    "path": "assets/img/haier.png",
+    "sha256": "8e4a7b7a871ed410a795e7ac722a6199043544f15ed94500833e15014b230afc"
+  },
+  {
+    "path": "assets/img/price breakdwown - subscribe me.png",
+    "sha256": "2e148ec15598c23e03adc2c1076823e46ba043f2da0782c764f81b41921795e3"
+  },
+  {
+    "path": "assets/img/pricing card - subscribe me.png",
+    "sha256": "910483e260e03885ac0f9b84250ddf16bba89b927348e767d1d5ae7170674066"
+  },
+  {
+    "path": "assets/img/social-preview.png",
+    "sha256": "1b1cdbc9e2c4d36874925633902c919932bbe2cc37e08c1aa83a43976741e055"
+  },
+  {
+    "path": "assets/img/spare part consumtion.png",
+    "sha256": "48fb9c64a2712818ebf4c44860c71ac8dc77f5fc48d8104a0e6daa096446dce5"
+  },
+  {
+    "path": "assets/img/typography - Barcode.png",
+    "sha256": "eb3a44c948cc4bbbed46931bc938815f0d5798daed8e44647f6c5c35c6c1b8eb"
+  },
+  {
+    "path": "assets/js/case-study.js",
+    "sha256": "4a0bef3db1b5bf6c03102efedc192a3e160f90c8196f6d35567f8c0bd0af4d74"
+  },
+  {
+    "path": "assets/js/main.js",
+    "sha256": "3d46c3a860eacd9088ea374b1624fb336035baae917b504422598ad25539b4b6"
+  },
+  {
+    "path": "case-studies.html",
+    "sha256": "e3c7b57fd0de204b67450bae278465e27c135f75d166d988de1cdfd5ef071476"
+  },
+  {
+    "path": "case-studies/barcode-studio-case-study.html",
+    "sha256": "f28806b6813f1e514656570f3cb8753846250940e2a9c0afc786edefc68b439b"
+  },
+  {
+    "path": "case-studies/case_studies_archive.html",
+    "sha256": "46a114f763e2dbb75ddaa0b3265ad0f38c77f598bf1b2a6acb6613d3dfc7d9af"
+  },
+  {
+    "path": "case-studies/haiermall-case-study.html",
+    "sha256": "88ba3a48a7ab954513035525f0629e96a6d587744cd6e8b0a8aafa3fd8de4502"
+  },
+  {
+    "path": "case-studies/subscribe-me-case-study.html",
+    "sha256": "7a26c6113f9eee550b256c2c7d9fe450743720e10310b52aa64c7f8e66d87a14"
+  },
+  {
+    "path": "case-studies/utworx-case-study.html",
+    "sha256": "d1fea756413c41e2f782a5f9a05460670b51550f1316fc139ec03bdb800e9de5"
+  },
+  {
+    "path": "index.html",
+    "sha256": "107aa01856eb62ed6b1508d11c7414e2edc663680f893e64f12e7844c27ed752"
+  },
+  {
+    "path": "robots.txt",
+    "sha256": "c3e34ecd0a3b8d4a54b086082615ce24076344ceda1588a173f2790e9f0d59cd"
+  },
+  {
+    "path": "sitemap.xml",
+    "sha256": "e01a5368774a999e3f530ffc7c8c9baf55e77e885c9fabafb67135088e29a806"
+  },
+  {
+    "path": "ux-audit-service-page.html",
+    "sha256": "00223ae04c4dcab8f3ff08f5e95145ab0968541b79d5c488671fc63fedce9077"
+  }
+]

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Staging: every HTML page carries noindex. No sitemap is advertised.
